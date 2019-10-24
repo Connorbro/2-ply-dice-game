@@ -20,7 +20,8 @@ function randomImg1() {
         total=0
             
         }
-    
+        
+        
     else {
         if (rnd == 1) {
             image.src = "dice1.png"
