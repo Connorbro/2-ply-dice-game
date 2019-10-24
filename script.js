@@ -24,8 +24,9 @@ function randomImg1() {
     else {
         if (rnd == 1) {
             image.src = "dice1.png"
-            total = 0
+            
             document.getElementById("Dicegame").innerHTML = `you lose`
+            total = 0
 
         }
         if (rnd == 2) {
@@ -53,3 +54,6 @@ else if (rnd == 1){
     document.querySelector('h1').innerHTML = 'YOU LOSE!'
 
 }
+function refreshPage(){
+    window.location.reload();
+} 
