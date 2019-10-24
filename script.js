@@ -44,4 +44,7 @@ function randomImg1() {
         }
     }
 }
+if(total >=20){
+document.querySelector('h1').innerHTML = `Player 1 wins`
 
+}
