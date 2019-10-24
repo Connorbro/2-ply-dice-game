@@ -14,7 +14,7 @@ function randomImg1() {
     let image = document.getElementById("imageid")
     // let button = document.getElementsByClassName("glow-on-hover")
     total = total+ rnd
-    document.getElementById("numbers").innerHTML = `Random = ${rnd} <br> Total = ${total}<br>`
+    document.getElementById("numbers").innerHTML = `You rolled a ${rnd} <br> Total = ${total}<br>`
     if(total >= 20){
         document.getElementById("numbers").innerHTML += `you win`
         total=0
@@ -44,4 +44,4 @@ function randomImg1() {
         }
     }
 }
-s
+

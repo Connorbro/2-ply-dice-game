@@ -11,6 +11,8 @@ h1{
     font-size: 77px;}
 h2{
     font-size: 30px;
+    text-align: left;
+    margin-left: 100px;
 }
 
 .glow-on-hover{
