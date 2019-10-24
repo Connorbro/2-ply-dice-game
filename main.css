@@ -12,9 +12,16 @@ h1{
 h2{
     font-size: 30px;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 200px;
+    text-decoration: underline;
 }
-
+h3{
+    font-size:30px;
+    text-align: right;
+    margin-right: 200px;
+    margin-top:-60px;
+    text-decoration: underline;
+}
 .glow-on-hover{
     width: 100px;
     height: 50px;
@@ -79,5 +86,11 @@ h2{
     
 
 }
+p{
+    text-align: left;
+    /* margin-left: 200px;
+    /* margin-top:-80px;
+    font-size: 20px; */ 
 
+}
 
