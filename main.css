@@ -6,10 +6,13 @@ body {
     
 
 }
-h2{
+h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 77px;
+    font-size: 77px;}
+h2{
+    font-size: 30px;
 }
+
 .glow-on-hover{
     width: 100px;
     height: 50px;
